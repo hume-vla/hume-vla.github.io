@@ -1,0 +1,1092 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Hume: Introducing System-2 Thinking in Visual-Language-Action Model"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="static/assets/favicon.svg" />
+    <title>
+      Hume: Introducing System-2 Thinking in Visual-Language-Action Model
+    </title>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("js", new Date());
+
+      gtag("config", "G-PYVRSFMDRL");
+    </script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css" />
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css" />
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <link rel="stylesheet" href="./static/css/index.css" />
+
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">
+                Hume<br />
+                Introducing System-2 Thinking in<br />
+                Visual-Language-Action Models
+              </h1>
+              <div class="container">
+                <div class="columns is-centered">
+                  <div class="column is-8">
+                    <div
+                      class="is-size-4 publication-authors has-text-centered"
+                    >
+                      <span class="author-block">Anonymous Authors</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <span class="link-block">
+                    <a
+                      href="https://arxiv.org/abs/2505.21432"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <svg
+                          width="20"
+                          height="20"
+                          fill="none"
+                          viewBox="0 0 17.732 24.269"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M573.549,280.916l2.266,2.738,6.674-7.84c.353-.47.52-.717.353-1.117a1.218,1.218,0,0,0-1.061-.748h0a.953.953,0,0,0-.712.262Z"
+                            transform="translate(-566.984 -271.548)"
+                            fill="#bdb9b4"
+                          />
+                          <path
+                            d="M579.525,282.225l-10.606-10.174a1.413,1.413,0,0,0-.834-.5,1.09,1.09,0,0,0-1.027.66c-.167.4-.047.681.319,1.206l8.44,10.242h0l-6.282,7.716a1.336,1.336,0,0,0-.323,1.3,1.114,1.114,0,0,0,1.04.69A.992.992,0,0,0,571,293l8.519-7.92A1.924,1.924,0,0,0,579.525,282.225Z"
+                            transform="translate(-566.984 -271.548)"
+                            fill="#b31b1b"
+                          />
+                          <path
+                            d="M584.32,293.912l-8.525-10.275,0,0L573.53,280.9l-1.389,1.254a2.063,2.063,0,0,0,0,2.965l10.812,10.419a.925.925,0,0,0,.742.282,1.039,1.039,0,0,0,.953-.667A1.261,1.261,0,0,0,584.32,293.912Z"
+                            transform="translate(-566.984 -271.548)"
+                            fill="#bdb9b4"
+                          />
+                        </svg>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a
+                      href="https://github.com/hume-vla/hume-vla.github.io"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div
+          class="hero-body"
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <video
+            style="width: 100%; height: auto; margin: 0%; border-radius: 25px"
+            controls
+            muted
+            loading="lazy"
+            autoplay
+            loop
+            playsinline
+          >
+            <source src="./static/assets/Hume-demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-full">
+            <h2 class="title is-3 has-text-centered">Overview</h2>
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-bottom: 1%;
+              "
+            >
+              <video
+                style="width: 50%; height: 250px;  object-fit: fill"
+                controls
+                muted
+                loading="lazy"
+                autoplay
+                loop
+                playsinline
+              >
+                <source src="./static/assets/thinking.mp4" type="video/mp4" />
+              </video>
+
+              <video
+                style="width: 50%; height: 250px; object-fit: fill"
+                controls
+                muted
+                loading="lazy"
+                autoplay
+                loop
+                playsinline
+              >
+                <source src="./static/assets/denoising.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div style="display: flex; justify-content: center">
+              <div style="display: flex; justify-content: center">
+                <img
+                  src="./static/assets/overview.png"
+                  alt="The overview of Hume"
+                  style="max-width: 100%; height: auto; margin: 10px"
+                />
+              </div>
+            </div>
+            <p style="text-align: justify">
+              We present <span class="method-text">Hume</span>, a dual-system
+              vision-language-action model exploring human-like thinking
+              capabilities for dexterous robot control. Equipped with
+              value-guided System-2 thinking and cascaded action denoising, the
+              model achieves superior complex reasoning and control
+              capabilities. The model achieves state-of-the-art performance
+              across a diverse range of evaluations and shows significantly
+              advancement in complex robot control tasks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-full">
+            <h2 class="title is-3 has-text-centered">Pipeline</h2>
+            <div style="display: flex; justify-content: center">
+              <div style="display: flex; justify-content: center">
+                <img
+                  src="./static/assets/pipeline.png"
+                  alt="Hume Pipeline"
+                  class="image is-fullwidth"
+                />
+              </div>
+            </div>
+            <p class="content has-text-justified mt-4">
+              The pipeline of <span class="method-text">Hume</span>. Hume
+              contains two systems working asynchronously. Given the
+              observation, System 2 of Hume first generates \(N\) candidate
+              action chunks with different noise level, and the best-of-N
+              candidate with the highest \(Q\) value will be selected as the
+              optimal candidate \(\mathbf{A}_{t}^{\tau^*}\), which is segmented
+              and conveyed to System 1 for continuous action denoising.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-full">
+            <h2 class="title is-3 has-text-centered">Experiment</h2>
+            <div style="display: flex; justify-content: center">
+              <div style="display: flex; justify-content: center">
+                <img
+                  src="./static/assets/experiment_setup.png"
+                  alt="Hume Experiment Setup"
+                  class="image is-fullwidth"
+                />
+              </div>
+            </div>
+            <p class="content has-text-justified mt-4">
+              We evaluate <span class="method-text">Hume</span> across 3
+              simulation environments and 3 different real-world robotic
+              platforms, covering 15 robot learning scenarios and 21 real-world
+              manipulation tasks.
+            </p>
+            <h3 class="title is-4 has-text-centered">
+              Evaluation on WidowX 250s
+            </h3>
+            <!-- <p class="content has-text-justified mb-4">
+              Benefiting from the proposed <b>Ego3D Position Encoding</b>, <span class="method-text">SpatialVLA</span> exhibits superior performance in understanding spatial prompts and complex
+              spatial layout tasks.
+            </p> -->
+            <div style="display: flex; justify-content: center">
+              <div style="width: 30%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put carrot on plate</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/widowx250s/carrot.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 30%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put cup on white plate</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/widowx250s/cup_plate.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 30%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put cup on pink cloth</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/widowx250s/cup_towl.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: center">
+              <div style="width: 30%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put eggplant in basket</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/widowx250s/eggplant.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 30%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">close microwave</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/widowx250s/microwave.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 30%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">lift red pepper</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/widowx250s/pepper.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column content">
+            <h3 class="title is-4" style="text-align: center">
+              Evaluation on Frank-Emika-Panda
+            </h3>
+            <div style="display: flex; justify-content: center">
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put banana in basket</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/franka/HUME_1success_kitche_banana.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put pot on cutting board</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/franka/HUME_1success_kitchen_pot.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">push handle aside</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/franka/HUME_1success_make_tea.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put penguin on toy car</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/franka/HUME_1success_plush_toy_penguin.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: center">
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put tiger on toy car</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/franka/HUME_1success_plush_toy_tiger.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put blue cube on toy car</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/franka/HUME_1success_three_cube_blue.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put green cube on toy car</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/franka/HUME_1success_three_cube_green.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">put red cube on toy car</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/franka/HUME_1success_three_cube_red.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column content">
+            <h3 class="title is-4" style="text-align: center">
+              Evaluation on Agibot G-1
+            </h3>
+            <div style="display: flex; justify-content: center">
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">pass water</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/agibot/pass_water.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">pour water</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/agibot/pour_water.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">restock</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/agibot/restock.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <div style="width: 23%; height: auto; margin: 1%">
+                <p class="content has-text-centered mb-1" style="font-style: normal; font-weight: bold; color: black">fold shorts</p>
+                <video
+                  style="object-fit: fill"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/agibot/shorts.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-full">
+            <h2 class="title is-3 has-text-centered">
+              Failure Recovery Powerd by Value-Guided Thinking
+            </h2>
+            <p class="content has-text-justified mb-4">
+              When a failure occurs, such as missing the grasping position,
+              other policies fall into a failure state, and Hume selects the
+              correct action through value-guided thinking to help it recover
+              from the failure state and successfully complete the task.
+            </p>
+
+            <div class="columns" style="font-weight: bold; font-size: 0.8rem; color: black;">
+              <div class="column is-3 has-text-centered"></div>
+              <div class="column is-3 has-text-centered">Pi0: Trapped in Error</div>
+              <div class="column is-3 has-text-centered">GR00T: Trapped in Error</div>
+              <div class="column is-3 has-text-centered">Hume: Recover from Failure</div>
+            </div>
+            
+
+            <div class="columns is-multiline is-variable is-2">
+              <div class="column is-3" style="display: flex; justify-content: center; align-items: center; height: auto">
+              <p class="content mb-0" style="
+                  font-style: normal; 
+                  font-weight: bold; 
+                  color: black; 
+                  font-size: 1.0rem;
+                  margin: 0;
+                  text-align: center;
+                  display: block;
+                ">
+                  Put banana in basket
+                </p>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/kitchen_banana/GrootPi0_Fail_kitchen_banana.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/kitchen_banana/GrootPi0_Fail_kitchen_banana_more.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/kitchen_banana/HUME_success_kitchen_banana.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+
+            <div class="columns is-multiline is-variable is-2">
+              <div class="column is-3" style="display: flex; justify-content: center; align-items: center; height: auto">
+                <p class="content mb-0" style="
+                  font-style: normal; 
+                  font-weight: bold; 
+                  color: black; 
+                  font-size: 1.0rem;
+                  margin: 0;
+                  text-align: center;
+                  display: block;
+                ">
+                  Put handle aside
+                </p>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/make_tea/GrootPi0_Fail_make_tea.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/make_tea/GrootPi0_Fail_make_tea_more.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/make_tea/HUME_success_make_tea.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+
+            <div class="columns is-multiline is-variable is-2">
+              <div class="column is-3" style="display: flex; justify-content: center; align-items: center; height: auto">
+                <p class="content mb-0" style="
+                  font-style: normal; 
+                  font-weight: bold; 
+                  color: black; 
+                  font-size: 1.0rem;
+                  margin: 0;
+                  text-align: center;
+                  display: block;
+                ">
+                  Put tiger on toy car
+                </p>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/plush_toy/GrootPi0_Fail_plush_toy.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/plush_toy/GrootPi0_Fail_plush_toy_more.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/plush_toy/HUME_success_plush_toy.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+
+            <div class="columns is-multiline is-variable is-2">
+              <div class="column is-3" style="display: flex; justify-content: center; align-items: center; height: auto">
+                <p class="content mb-0" style="
+                  font-style: normal; 
+                  font-weight: bold; 
+                  color: black; 
+                  font-size: 1.0rem;
+                  margin: 0;
+                  text-align: center;
+                  display: block;
+                ">
+                  Put blue cube on toy car
+                </p>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/three_cube_blue/GrootPi0_Fail_three_cube_blue.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/three_cube_blue/GrootPi0_Fail_three_cube_blue_more.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/three_cube_blue/HUME_success_three_cube_blue.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+
+            <div class="columns is-multiline is-variable is-2">
+              <div class="column is-3" style="display: flex; justify-content: center; align-items: center; height: auto">
+                <p class="content mb-0" style="
+                  font-style: normal; 
+                  font-weight: bold; 
+                  color: black; 
+                  font-size: 1.0rem;
+                  margin: 0;
+                  text-align: center;
+                  display: block;
+                ">
+                  Put green cube on toy car
+                </p>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/three_cube_green/GrootPi0_Fail_three_cube_green.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/three_cube_green/GrootPi0_Fail_three_cube_green_more.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/three_cube_green/HUME_success_three_cube_green.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+
+            <div class="columns is-multiline is-variable is-2">
+              <div class="column is-3" style="display: flex; justify-content: center; align-items: center; height: auto">
+                <p class="content mb-0" style="
+                  font-style: normal; 
+                  font-weight: bold; 
+                  color: black; 
+                  font-size: 1.0rem;
+                  margin: 0;
+                  text-align: center;
+                  display: block;
+                ">
+                  Put red cube on toy car
+                </p>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/three_cube_red/GrootPi0_Fail_three_cube_red.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/three_cube_red/GrootPi0_Fail_three_cube_red_more.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="column is-3">
+                <video
+                  style="width: 100%; height: auto"
+                  controls
+                  muted
+                  loading="lazy"
+                  autoplay
+                  loop
+                  playsinline
+                >
+                  <source
+                    src="./static/assets/failure_recovery/three_cube_red/HUME_success_three_cube_red.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <h2 class="title">Citation</h2>
+        If you find our work helpful, please cite us:
+        <div style="position: relative">
+          <pre><code id="bibtex-code">@article{hume2025,
+    title={HUME: Value-Guided Thinking for Generalist Robotic Manipulation},
+    author={Anonimous Authors},
+    year={2025}
+  }</code></pre>
+          <button
+            onclick="copyToClipboard()"
+            style="
+              position: absolute;
+              top: 5px;
+              right: 5px;
+              background: none;
+              border: none;
+              cursor: pointer;
+            "
+          >
+            <i class="fa fa-paste" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <script>
+      function copyToClipboard() {
+        var copyText = document.getElementById("bibtex-code").innerText;
+        navigator.clipboard.writeText(copyText).then(
+          function () {
+            console.log("copy to clipboard");
+          },
+          function (err) {
+            console.error("fail to copy", err);
+          },
+        );
+      }
+    </script>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            This template is borrowed from
+            <a href="https://nerfies.github.io/"
+              ><span class="dnerf">Nerfies</span></a
+            >.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
